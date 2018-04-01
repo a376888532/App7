@@ -68,8 +68,8 @@ namespace App7
                 }
                 else {
                     player.Source = null;
-                }
-                this.textBlock.Text = "播放结束,请选择文件";
+                    this.textBlock.Text = "播放结束,请选择文件";
+            }
                 this.songlist1.Text = LoadListBoxData(0);
                 this.songlist2.Text = LoadListBoxData(1);
                 this.songlist3.Text = LoadListBoxData(2);
